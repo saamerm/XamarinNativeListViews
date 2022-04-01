@@ -134,5 +134,11 @@
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
     </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\XamarinNativeListView.Core\XamarinNativeListView.Core.csproj">
+        <Project>{FF3A3F59-A470-4D0F-A75C-6F4935EA2A27}</Project>
+        <Name>XamarinNativeListView.Core</Name>
+      </ProjectReference>
+    </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
