@@ -113,6 +113,7 @@
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
             <Visible>false</Visible>
         </ImageAsset>
+        <ImageAsset Include="Media.xcassets\Contents.json" />
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Resources\" />
@@ -133,6 +134,8 @@
         <Compile Include="ViewController.designer.cs">
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
+        <Compile Include="Source.cs" />
+        <Compile Include="City.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\XamarinNativeListView.Core\XamarinNativeListView.Core.csproj">
